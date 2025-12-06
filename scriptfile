@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script {
                     // Define WAR file path
-                    def WAR_FILE = "${env.WORKSPACE}/target/simple-parcel-service-app-1.0-SNAPSHOT.jar"
+                    def WAR_FILE = "/opt/jenkins/workspace/Parcel_feature-1/target/simple-parcel-service-app-1.0-SNAPSHOT.jar"
 
                     // Current timestamp
                     def currentDate = new java.text.SimpleDateFormat("yyyy-MM-dd_HH-mm").format(new Date())
